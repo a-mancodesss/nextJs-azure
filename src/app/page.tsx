@@ -43,7 +43,7 @@ export default function BirthdayWish() {
         transition={{ duration: 0.5 }}
       >
         <h1 className="text-6xl font-bold text-white mb-8">
-        VM [Azure] Deployed Next.js Project 🎉
+        VM - [Azure] Deployed Next.js Project 🎉
         </h1>
 
         <motion.div
