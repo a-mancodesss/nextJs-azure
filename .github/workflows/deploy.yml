@@ -22,7 +22,7 @@ jobs:
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           port: 22
           script: |
-            cd 100xdevs-ci-cd
+            cd nextapp
             git pull origin master
             npm install
             npm run build
