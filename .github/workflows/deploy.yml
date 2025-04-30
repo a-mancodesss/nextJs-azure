@@ -21,4 +21,10 @@ jobs:
           username: azureuser
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           port: 22
-          script: ./deploy.sh
+          script: |
+            cd 100xdevs-ci-cd
+            git pull origin master
+            npm install
+            npm run build
+            npm run start
+                
